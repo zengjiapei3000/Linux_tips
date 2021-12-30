@@ -19,3 +19,22 @@ $ git commit -a -c ORIG_HEAD  (3)
 3. "reset" copies the old head to `.git/ORIG_HEAD`; redo the commit by starting with its log message. If you do not need to edit the message further, you can give `-C` option instead.
 
 See also the --amend option to [git-commit(1)](file:///D:/Applications/Scoop/apps/git-with-openssh/2.34.1.windows.1/mingw64/share/doc/git-doc/git-commit.html).
+
+### 个人尝试操作
+```
+git commit ...
+git log                             # 此时已经能看到未提交的 commit
+git reflog                          # 找到要reset的 reflog commit ID
+git reset --soft {reflog_commit_ID}
+git log
+```
+或:
+```
+git commit ...
+git log                             # 此时已经能看到未提交的 commit
+git reflog                          # 找到要reset的 reflog commit ID
+git reset --soft HEAD
+git log
+```
+
+完成撤销本地未 push 的 commit.
