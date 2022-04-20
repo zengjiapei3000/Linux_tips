@@ -7,7 +7,7 @@ What difference about `/etc/ssh` and `/root/.ssh`, `/home/user/.ssh`?
 >Q: I’m having fun with OpenSSH, and I know the `/etc/ssh` directory is for the ssh daemon and the `~/.ssh` directory is for a particular user.
 >
 >Both directories contain private and public keys:
->![/etc/ssh and ~/.ssh](./difference-about-etcssh-and-tilde-dotssh1.png)
+>![/etc/ssh and ~/.ssh](./pictures//difference-about-etcssh-and-tilde-dotssh1.png)
 >
 >But what is the difference between those keys? I’m confused because the ones I use as a user is in my home directory, and what are the roles of the keys found in `/etc/ssh`?
 
