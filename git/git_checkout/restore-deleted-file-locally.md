@@ -1,4 +1,4 @@
-# restore_deleted_file_locally
+# restore-deleted-file-locally
 
 sometimes, deleted working tree files can restore by git command `git checkout `.
 

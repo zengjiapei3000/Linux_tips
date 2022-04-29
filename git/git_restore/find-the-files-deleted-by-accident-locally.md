@@ -1,4 +1,4 @@
-# find the files deleted by accident locally
+# find-the-files-deleted-by-accident-locally
 When we delete some local files **by mistake**, we can sync pull to find deleted files.
 
 ## reference
